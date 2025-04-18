@@ -5,12 +5,15 @@ build-backend = "hatchling.build"
 [project]
 name = "ArkhamClustering"
 version = "0.0.1"
-license = { text = "GPL-3.0-or-later" }
 description = "Clustering Arkham Horror Decks by similarity (hoping it makes sense)"
 dependencies = [
+    "matplotlib ==3.10.1",
     "numpy ==2.2.4",
     "pandas ==2.2.3",
-    "matplotlib ==3.10.1",
-    "torch ==2.6.0",
     "pytorch-lightning ==2.5.1",
+    "requests ==2.32.3",
+    "torch ==2.6.0",
 ]
+
+[project.license]
+text = "GPL-3.0-or-later"
