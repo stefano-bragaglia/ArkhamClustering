@@ -3,9 +3,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "deck_clustering"
+name = "ArkhamClustering"
 version = "0.0.1"
-description = ""
+license = { text = "GPL-3.0-or-later" }
+description = "Clustering Arkham Horror Decks by similarity (hoping it makes sense)"
 dependencies = [
     "numpy ==2.2.4",
     "pandas ==2.2.3",
